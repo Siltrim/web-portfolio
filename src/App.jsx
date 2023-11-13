@@ -11,8 +11,21 @@ import Testimonials from './components/testimonials/Testimonials';
 import Work from './components/work/Work';
 import './index.css';
 
+import Preloader from './components/Preloader/Preloader';
+import { useEffect, useState } from 'react';
+
 function App() {
-  return (
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 1000);
+  }, []);
+
+  return isLoading ? (
+    <Preloader />
+  ) : (
     <>
       <Header />
       <main className="main">

@@ -1,0 +1,10 @@
+.preloader {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: none;
+  shape-rendering: auto;
+  fill: var(--text-color);
+}
