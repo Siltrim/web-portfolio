@@ -20,22 +20,26 @@ const Contact = () => {
 
   return (
     <section className="section contact" id="contact">
-      <h2 className="section__title">Get in touch</h2>
-      <span className="section__subtitle"> Contact Me</span>
+      <h2 className="section__title">Контакты</h2>
+      <span className="section__subtitle"></span>
 
       <div className="contact__container container">
         <div className="contact__content">
-          <h3 className="contact__title">Talk to me</h3>
+          <h3 className="contact__title">Связь со мной</h3>
 
           <div className="contact__info">
             <div className="contact__card">
-              <i className="bx bx-mail-send contact__card-icon"></i>
+              <i className="bx bxl-telegram contact__card-icon"></i>
 
-              <h3 className="contact__card-title">Email</h3>
-              <span className="contact__card-data">rojerr810@gmail.com</span>
+              <h3 className="contact__card-title">Telegram</h3>
+              <span className="contact__card-data">Siltirm</span>
 
-              <a href="mailto:rojerr810@gmail.com" className="contact__button">
-                Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i>
+              <a
+                href="https://t.me/Siltrim"
+                rel="noreferrer"
+                target="_blank"
+                className="contact__button">
+                Напишите мне <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
 
@@ -46,28 +50,30 @@ const Contact = () => {
               <span className="contact__card-data">+7-702-438-79-99</span>
 
               <a
-                href="https://api.whatsapp.com/send?phone=87024387999&text=Hello, more information!
+                href="https://api.whatsapp.com/send?phone=87024387999
 "
+                rel="noreferrer"
+                target="_blank"
                 className="contact__button">
-                Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i>
+                Напишите мне <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
 
             <div className="contact__card">
-              <i className="bx bxl-messenger contact__card-icon"></i>
+              <i className="bx bx-mail-send contact__card-icon"></i>
 
-              <h3 className="contact__card-title">Messenger</h3>
-              <span className="contact__card-data">user.fb123</span>
+              <h3 className="contact__card-title">Email</h3>
+              <span className="contact__card-data">rojerr810@gmail.com</span>
 
-              <a href="https://m.me/crypticalcoder" className="contact__button">
-                Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i>
+              <a href="mailto:rojerr810@gmail.com" className="contact__button">
+                Напишите мне<i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
           </div>
         </div>
 
         <div className="contact__content">
-          <h3 className="contact__title">Write me your project</h3>
+          <h3 className="contact__title">Опишите ваш проект</h3>
 
           <form ref={form} onSubmit={sendEmail} className="contact__form">
             <div className="contact__form-div">
@@ -76,7 +82,7 @@ const Contact = () => {
                 type="text"
                 name="name"
                 className="contact__form-input"
-                placeholder="Insert your name"
+                placeholder="Ваше имя"
               />
             </div>
 
@@ -86,7 +92,7 @@ const Contact = () => {
                 type="email"
                 name="email"
                 className="contact__form-input"
-                placeholder="Insert your email"
+                placeholder="Ваш email"
               />
             </div>
 
@@ -97,12 +103,12 @@ const Contact = () => {
                 cols="30"
                 rows="10"
                 className=" contact__form-input"
-                placeholder="Write your project"></textarea>
+                placeholder="Напишите ваше сообщение"></textarea>
             </div>
 
             <button className="button button--flex">
-              Send Message
-              <svg
+              Отправить сообщение
+              {/* <svg
                 className="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -115,6 +121,16 @@ const Contact = () => {
                 <path
                   d="M10.11 14.7052C9.92005 14.7052 9.73005 14.6352 9.58005 14.4852C9.29005 14.1952 9.29005 13.7152 9.58005 13.4252L13.16 9.83518C13.45 9.54518 13.93 9.54518 14.22 9.83518C14.51 10.1252 14.51 10.6052 14.22 10.8952L10.64 14.4852C10.5 14.6352 10.3 14.7052 10.11 14.7052Z"
                   fill="var(--container-color)"></path>
+              </svg> */}
+              <svg
+                className="button__icon"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                id="envelope-edit">
+                <path
+                  fill="white"
+                  d="M14,11.51h2.42a1,1,0,0,0,.71-.29l4.58-4.58a1,1,0,0,0,0-1.42L19.29,2.8a1,1,0,0,0-1.42,0L13.29,7.38a1.05,1.05,0,0,0-.29.71v2.42A1,1,0,0,0,14,11.51Zm1-3,3.58-3.58,1,1L16,9.51H15Zm6,2a1,1,0,0,0-1,1v7a1,1,0,0,1-1,1H5a1,1,0,0,1-1-1V8.9l5.88,5.89a3,3,0,0,0,4.27,0,1,1,0,0,0,0-1.4,1,1,0,0,0-1.43,0,1,1,0,0,1-1.4,0L5.41,7.49H10a1,1,0,0,0,0-2H5a3,3,0,0,0-3,3v10a3,3,0,0,0,3,3H19a3,3,0,0,0,3-3v-7A1,1,0,0,0,21,10.49Z"></path>
               </svg>
             </button>
           </form>

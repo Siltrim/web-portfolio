@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 import './header.css';
 import HeaderList from './HeaderList';
+import headerImg from '../../assets/logo.png';
 
 const Header = () => {
   window.addEventListener('scroll', (e) => {
@@ -15,7 +16,9 @@ const Header = () => {
   return (
     <header className="header">
       <nav className="nav container ">
-        <span className="nav__logo">Vorontsov</span>
+        <div className="wrapper-img">
+          <img src={headerImg} alt="Logo" />
+        </div>
 
         <div className={`nav__menu ${showMenu ? 'show-menu' : ''}`}>
           <ul className="nav__list">

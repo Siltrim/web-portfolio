@@ -53,7 +53,7 @@
   justify-self: center;
   display: flex;
   justify-content: center;
-  align-items: end;
+  align-items: flex-end;
   flex-direction: column;
 }
 
