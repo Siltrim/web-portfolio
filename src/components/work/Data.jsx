@@ -3,7 +3,7 @@ import Work2 from '../../assets/portfolio/layout/Armata.webp';
 import Work3 from '../../assets/portfolio/layout/OVK.webp';
 import Work4 from '../../assets/portfolio/layout/Law-firm.webp';
 import Work5 from '../../assets/portfolio/layout/Ocean.webp';
-import Work6 from '../../assets/portfolio/layout/Lux.png';
+import Work6 from '../../assets/portfolio/layout/Lux.webp';
 import Work7 from '../../assets/portfolio/app/pizza.webp';
 import Work8 from '../../assets/portfolio/app/OnlineStore.webp';
 import Work9 from '../../assets/portfolio/app/News.webp';
