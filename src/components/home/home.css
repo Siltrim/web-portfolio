@@ -19,6 +19,23 @@
   row-gap: 1rem;
 }
 
+.header,
+.home__social,
+.home__data,
+.home__scroll {
+  animation: visibleHome 1.3s ease-in-out;
+}
+
+@keyframes visibleHome {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 .home__social-icon {
   font-size: 1.25rem;
   color: var(--text-color);
@@ -208,6 +225,15 @@
 
 /* For small devices */
 @media screen and (max-width: 350px) {
+  .button__home {
+    font-size: var(--smaller-font-size);
+  }
+
+  .button__icon-home {
+    width: 20px;
+    height: 20px;
+  }
+
   .home__img {
     width: 180px;
     height: 180px;
