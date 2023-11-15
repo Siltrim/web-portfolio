@@ -7,9 +7,9 @@ const Qualification = () => {
   const toggle = (i) => setToggleState(i);
 
   return (
-    <section className="section qualification">
-      <h2 className="section__title">Qualification</h2>
-      <span className="section__subtitle">My personel journey</span>
+    <section id="qualification" className="section qualification">
+      <h2 className="section__title">Квалификация</h2>
+      <span className="section__subtitle">Мой путь</span>
 
       <div className="qualification__container container">
         <div className="qualification__tabs">
@@ -20,7 +20,7 @@ const Qualification = () => {
                 ? 'qualification__button qualification__active button--flex'
                 : 'qualification__button  button--flex'
             }>
-            <i className="uil uil-graduation-cap qualificatoin__icon"></i> Education
+            <i className="uil uil-graduation-cap qualificatoin__icon"></i> Образование
           </div>
 
           <div
@@ -31,7 +31,7 @@ const Qualification = () => {
                 : 'qualification__button  button--flex'
             }>
             {' '}
-            <i className="uil uil-briefcase-alt qualificatoin__icon"></i> Experience
+            <i className="uil uil-briefcase-alt qualificatoin__icon"></i> Опыт
           </div>
         </div>
 
@@ -44,10 +44,13 @@ const Qualification = () => {
             }>
             <div className="qualification__data">
               <div className="qualification__info">
-                <h3 className="qualification__title">Web Design</h3>
-                <span className="qualification__subtitle">MUIT</span>
+                <h3 className="qualification__title">
+                  Магистр по специальности информационные технологии, вычислительная техника и
+                  программное обеспечение
+                </h3>
+                <span className="qualification__subtitle">МУИТ</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2023-Present
+                  <i className="uil uil-calendar-alt"></i> 2021-2023
                 </div>
               </div>
 
@@ -66,20 +69,22 @@ const Qualification = () => {
               </div>
 
               <div className="qualification__info">
-                <h3 className="qualification__title">Web Development</h3>
-                <span className="qualification__subtitle">MUIT</span>
+                <h3 className="qualification__title">Пройденные курсы по разработке на React </h3>
+                <span className="qualification__subtitle">Ulbi</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2019-2020
+                  <i className="uil uil-calendar-alt"></i> 2021
                 </div>
               </div>
             </div>
 
             <div className="qualification__data">
               <div className="qualification__info">
-                <h3 className="qualification__title">UX Expert</h3>
-                <span className="qualification__subtitle">MUIT</span>
+                <h3 className="qualification__title">
+                  Бакалав по специальности коммуникации и коммуникационные технологии
+                </h3>
+                <span className="qualification__subtitle">АУЭС</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2017-2018
+                  <i className="uil uil-calendar-alt"></i> 2019
                 </div>
               </div>
 
@@ -105,19 +110,21 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div className="qualification__info">
-                <h3 className="qualification__title">Product Designer</h3>
-                <span className="qualification__subtitle">MUIT</span>
+                <h3 className="qualification__title">Разработка сайтов</h3>
+
+                <span className="qualification__subtitle">Фриланс</span>
+
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2023-Present
+                  <i className="uil uil-calendar-alt"></i> 2023
                 </div>
               </div>
             </div>
             <div className="qualification__data">
               <div className="qualification__info">
-                <h3 className="qualification__title">UX Designer</h3>
-                <span className="qualification__subtitle">MUIT</span>
+                <h3 className="qualification__title">Системный администратор</h3>
+                <span className="qualification__subtitle">Bservice</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2023-Present
+                  <i className="uil uil-calendar-alt"></i> 2023
                 </div>
               </div>
 
@@ -128,7 +135,7 @@ const Qualification = () => {
 
               <div></div>
             </div>
-            <div className="qualification__data">
+            {/* <div className="qualification__data">
               <div></div>
 
               <div>
@@ -143,7 +150,7 @@ const Qualification = () => {
                   <i className="uil uil-calendar-alt"></i> 2023-Present
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

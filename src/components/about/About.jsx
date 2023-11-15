@@ -1,28 +1,28 @@
 import React from 'react';
 import './about.css';
-import img from '../../assets/about.jpg';
-import CV from '../../assets/John-Cv.pdf';
+import CV from '../../assets/resume.pdf';
 import Info from './Info';
 
 const About = () => {
   return (
     <section className="about section" id="about">
-      <h2 className="section__title"> About Me</h2>
-      <span className="section__subtitle">My introduction</span>
+      <h2 className="section__title"> О себе</h2>
+      <span className="section__subtitle">Представление</span>
 
       <div className="about__container container">
-        <img src={img} alt="" className="about__img" />
+        <div className="about__img"></div>
 
         <div className="about__data">
           <Info />
 
           <p className="about__description">
-            Frontend developer, I create web pages with UI / UX user interface, I have years of
-            experience and many clients are happy with the projects carried out.
+            Я - веб-разработчик с страстью к созданию интерактивных и стильных веб-приложений. Мое
+            призвание - воплощать уникальные идеи в визуально привлекательные и функциональные
+            решения.
           </p>
 
           <a href={CV} download="" className="button button--flex">
-            Download CV
+            Скачать резюме
             <svg
               className="button__icon"
               xmlns="http://www.w3.org/2000/svg"
