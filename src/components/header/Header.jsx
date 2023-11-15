@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import './header.css';
 import HeaderList from './HeaderList';
-import headerImg from '../../assets/logo.png';
+import headerImg from '../../assets/logo.webp';
 
 const Header = () => {
   window.addEventListener('scroll', (e) => {
