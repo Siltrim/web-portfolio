@@ -14,10 +14,10 @@ const Data = () => {
         href="https://t.me/Siltrim"
         rel="noreferrer"
         target="_blank"
-        className="button button--flex">
+        className="button button--flex button__home">
         Сообщение в тегеграм
         <svg
-          className="button__icon"
+          className="button__icon button__icon-home"
           xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="24"
