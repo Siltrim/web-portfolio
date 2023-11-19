@@ -80,7 +80,7 @@ const Qualification = () => {
             <div className="qualification__data">
               <div className="qualification__info">
                 <h3 className="qualification__title">
-                  Бакалав по специальности коммуникации и коммуникационные технологии
+                  Бакалавр по специальности информационные технологии
                 </h3>
                 <span className="qualification__subtitle">АУЭС</span>
                 <div className="qualification__calender">
