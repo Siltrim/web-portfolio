@@ -58,7 +58,7 @@ export const projectsData = [
     image: Work7,
     title: 'Заказ пиццы',
     category: 'Приложения на React',
-    link: 'https://react-pizza-v2-lq7w.vercel.app/',
+    link: 'https://react-pizza-v2-mu.vercel.app/',
   },
   {
     id: 8,
