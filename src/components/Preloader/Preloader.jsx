@@ -4,7 +4,7 @@ import './preloader.css';
 const Preloader = () => {
   return (
     <>
-      <div className="preloader container">
+      <div className="preloader">
         <svg
           className="svg-preloader"
           xmlns="http://www.w3.org/2000/svg"
