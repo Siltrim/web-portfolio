@@ -2,7 +2,7 @@ import Work1 from '../../assets/portfolio/layout/SMitler.webp';
 import Work2 from '../../assets/portfolio/layout/Armata.webp';
 import Work3 from '../../assets/portfolio/layout/OVK.webp';
 import Work4 from '../../assets/portfolio/layout/Law-firm.webp';
-import Work5 from '../../assets/portfolio/layout/Ocean.webp';
+import Work5 from '../../assets/portfolio/layout/AirpodsMax.webp';
 import Work6 from '../../assets/portfolio/layout/Lux.webp';
 import Work7 from '../../assets/portfolio/app/pizza.webp';
 import Work8 from '../../assets/portfolio/app/OnlineStore.webp';
@@ -42,9 +42,9 @@ export const projectsData = [
   {
     id: 5,
     image: Work5,
-    title: 'Реклама',
+    title: 'AirPods Max',
     category: 'Cайты',
-    link: 'https://siltrim.github.io/ocean/',
+    link: 'https://siltrim.github.io/AirMax/',
   },
   {
     id: 6,
